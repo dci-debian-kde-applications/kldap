@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 15.07.90 amd64 i386
 libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 15.07.90
  _ZN5KLDAP10LdapObject5clearEv@Base 15.07.90
@@ -29,6 +29,10 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP10LdapSearch6searchERKNS_10LdapServerERK11QStringListi@Base 15.07.90
  _ZN5KLDAP10LdapSearch6searchERKNS_6LdapDNENS_7LdapUrl5ScopeERK7QStringRK11QStringListii@Base 15.07.90
  _ZN5KLDAP10LdapSearch6searchERKNS_7LdapUrlEi@Base 15.07.90
+ _ZN5KLDAP10LdapSearch7Private11startSearchERKNS_6LdapDNENS_7LdapUrl5ScopeERK7QStringRK11QStringListii@Base 15.07.90
+ _ZN5KLDAP10LdapSearch7Private15closeConnectionEv@Base 15.07.90
+ _ZN5KLDAP10LdapSearch7Private6resultEv@Base 15.07.90
+ _ZN5KLDAP10LdapSearch7Private7connectEv@Base 15.07.90
  _ZN5KLDAP10LdapSearch7abandonEv@Base 15.07.90
  _ZN5KLDAP10LdapSearchC1ERNS_14LdapConnectionE@Base 15.07.90
  _ZN5KLDAP10LdapSearchC1Ev@Base 15.07.90
@@ -87,6 +91,12 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP13LdapOperation13waitForResultEii@Base 15.07.90
  _ZN5KLDAP13LdapOperation17setClientControlsERK7QVectorINS_11LdapControlEE@Base 15.07.90
  _ZN5KLDAP13LdapOperation17setServerControlsERK7QVectorINS_11LdapControlEE@Base 15.07.90
+ _ZN5KLDAP13LdapOperation20LdapOperationPrivate13processResultEiP7ldapmsg@Base 15.07.90
+ _ZN5KLDAP13LdapOperation20LdapOperationPrivate4bindERK10QByteArrayPFiRNS0_16SASL_CredentialsEPvES7_b@Base 15.07.90
+ _ZN5KLDAP13LdapOperation20LdapOperationPrivateC1Ev@Base 15.07.90
+ _ZN5KLDAP13LdapOperation20LdapOperationPrivateC2Ev@Base 15.07.90
+ _ZN5KLDAP13LdapOperation20LdapOperationPrivateD1Ev@Base 15.07.90
+ _ZN5KLDAP13LdapOperation20LdapOperationPrivateD2Ev@Base 15.07.90
  _ZN5KLDAP13LdapOperation3addERKNS_10LdapObjectE@Base 15.07.90
  _ZN5KLDAP13LdapOperation3addERKNS_6LdapDNERK7QVectorINS0_5ModOpEE@Base 15.07.90
  _ZN5KLDAP13LdapOperation3delERKNS_6LdapDNE@Base 15.07.90
@@ -115,6 +125,8 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP14LdapConnection11errorStringEi@Base 15.07.90
  _ZN5KLDAP14LdapConnection12setSizeLimitEi@Base 15.07.90
  _ZN5KLDAP14LdapConnection12setTimeLimitEi@Base 15.07.90
+ _ZN5KLDAP14LdapConnection21LdapConnectionPrivateC1Ev@Base 15.07.90
+ _ZN5KLDAP14LdapConnection21LdapConnectionPrivateC2Ev@Base 15.07.90
  _ZN5KLDAP14LdapConnection5closeEv@Base 15.07.90
  _ZN5KLDAP14LdapConnection6setUrlERKNS_7LdapUrlE@Base 15.07.90
  _ZN5KLDAP14LdapConnection7connectEv@Base 15.07.90
@@ -142,6 +154,17 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP16LdapConfigWidget16staticMetaObjectE@Base 15.07.90
  _ZN5KLDAP16LdapConfigWidget5setDnERKNS_6LdapDNE@Base 15.07.90
  _ZN5KLDAP16LdapConfigWidget6setUrlERKNS_7LdapUrlE@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private10initWidgetEv@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private10loadResultEPNS_10LdapSearchE@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private11setLDAPPortEv@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private12setAnonymousEb@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private12setLDAPSPortEv@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private14queryDNClickedEv@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private16queryMechClickedEv@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private7setSASLEb@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private8loadDataEPNS_10LdapSearchERKNS_10LdapObjectE@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private9sendQueryEv@Base 15.07.90
+ _ZN5KLDAP16LdapConfigWidget7Private9setSimpleEb@Base 15.07.90
  _ZN5KLDAP16LdapConfigWidget7setAuthENS0_4AuthE@Base 15.07.90
  _ZN5KLDAP16LdapConfigWidget7setHostERK7QString@Base 15.07.90
  _ZN5KLDAP16LdapConfigWidget7setMechERK7QString@Base 15.07.90
@@ -164,6 +187,8 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP23LdapAttributeProxyModel11qt_metacastEPKc@Base 15.07.90
  _ZN5KLDAP23LdapAttributeProxyModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Base 15.07.90
  _ZN5KLDAP23LdapAttributeProxyModel16staticMetaObjectE@Base 15.07.90
+ _ZN5KLDAP23LdapAttributeProxyModel30LdapAttributeProxyModelPrivateC1Ev@Base 15.07.90
+ _ZN5KLDAP23LdapAttributeProxyModel30LdapAttributeProxyModelPrivateC2Ev@Base 15.07.90
  _ZN5KLDAP23LdapAttributeProxyModel4sortEiN2Qt9SortOrderE@Base 15.07.90
  _ZN5KLDAP23LdapAttributeProxyModel7setDataERK11QModelIndexRK8QVarianti@Base 15.07.90
  _ZN5KLDAP23LdapAttributeProxyModelC1EP7QObject@Base 15.07.90
@@ -177,6 +202,8 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP23LdapStructureProxyModel11qt_metacastEPKc@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModel16staticMetaObjectE@Base 15.07.90
+ _ZN5KLDAP23LdapStructureProxyModel30LdapStructureProxyModelPrivateC1Ev@Base 15.07.90
+ _ZN5KLDAP23LdapStructureProxyModel30LdapStructureProxyModelPrivateC2Ev@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModel4sortEiN2Qt9SortOrderE@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModel7setDataERK11QModelIndexRK8QVarianti@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModelC1EP7QObject@Base 15.07.90
@@ -184,8 +211,8 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP23LdapStructureProxyModelD0Ev@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModelD1Ev@Base 15.07.90
  _ZN5KLDAP23LdapStructureProxyModelD2Ev@Base 15.07.90
- _ZN5KLDAP3Ber5scanfE7QStringz@Base 15.07.90
- _ZN5KLDAP3Ber6printfE7QStringz@Base 15.07.90
+ _ZN5KLDAP3Ber5scanfERK7QStringz@Base 15.07.90
+ _ZN5KLDAP3Ber6printfERK7QStringz@Base 15.07.90
  _ZN5KLDAP3Ber7peekTagERi@Base 15.07.90
  _ZN5KLDAP3Ber7skipTagERi@Base 15.07.90
  _ZN5KLDAP3BerC1ERK10QByteArray@Base 15.07.90
@@ -251,6 +278,20 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP9LdapModel11qt_metacastEPKc@Base 15.07.90
  _ZN5KLDAP9LdapModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Base 15.07.90
  _ZN5KLDAP9LdapModel13setConnectionERNS_14LdapConnectionE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate13gotSearchDataEPNS_10LdapSearchERKNS_10LdapObjectE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate13setConnectionERNS_14LdapConnectionE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate13setSearchTypeENS1_10SearchTypeEPNS_15LdapModelDNNodeE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate15gotSearchResultEPNS_10LdapSearchE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate16recreateRootItemEv@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate17createConnectionsEv@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate20populateRootToBaseDNEv@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivate6searchERKNS_6LdapDNENS_7LdapUrl5ScopeERK7QStringRK11QStringListi@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivateC1EPS0_@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivateC1EPS0_RNS_14LdapConnectionE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivateC2EPS0_@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivateC2EPS0_RNS_14LdapConnectionE@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivateD1Ev@Base 15.07.90
+ _ZN5KLDAP9LdapModel16LdapModelPrivateD2Ev@Base 15.07.90
  _ZN5KLDAP9LdapModel16staticMetaObjectE@Base 15.07.90
  _ZN5KLDAP9LdapModel4sortEiN2Qt9SortOrderE@Base 15.07.90
  _ZN5KLDAP9LdapModel5readyEv@Base 15.07.90
@@ -369,6 +410,8 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZNK5KLDAP4Ldif7modTypeEv@Base 15.07.90
  _ZNK5KLDAP4Ldif9delOldRdnEv@Base 15.07.90
  _ZNK5KLDAP4Ldif9entryTypeEv@Base 15.07.90
+ _ZNK5KLDAP6LdapDN13LdapDNPrivate16isValidRDNStringERK7QString@Base 15.07.90
+ _ZNK5KLDAP6LdapDN13LdapDNPrivate21splitOnNonEscapedCharERK7QStringRK5QChar@Base 15.07.90
  _ZNK5KLDAP6LdapDN5depthEv@Base 15.07.90
  _ZNK5KLDAP6LdapDN7isEmptyEv@Base 15.07.90
  _ZNK5KLDAP6LdapDN7isValidEv@Base 15.07.90
