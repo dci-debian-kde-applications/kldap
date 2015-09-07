@@ -3,12 +3,12 @@ Upstream-Name: kldap
 Source: http://download.kde.org/pub/kde/unstable/applications/
 
 Files: *
-Copyright: 2004-2006 Szombathelyi György <gyurco@freemail.hu>
-           2010 Andre Heinecke <aheinecke@intevation.de>
-           2006 Sean Harmer <sh@theharmers.co.uk>
-           2004 Tobias Koenig <tokoe@kde.org>
-           2006 Volker Krause <vkrause@kde.org>
-           2006-2014 Laurent Montel <montel@kde.org>
+Copyright: 2010, Andre Heinecke <aheinecke@intevation.de>
+           2014, Laurent Montel <montel@kde.org>
+           2006, Sean Harmer <sh@theharmers.co.uk>
+           2004-2006, Szombathelyi György <gyurco@freemail.hu>
+           2004, Tobias Koenig <tokoe@kde.org>
+           2006, Volker Krause <vkrause@kde.org>
 License: LGPL-2+
 
 Files: debian/*
