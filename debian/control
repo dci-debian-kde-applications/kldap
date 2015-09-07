@@ -23,6 +23,7 @@ Multi-Arch: foreign
 Depends: libkf5ldap5 (= ${binary:Version}),
          libldap2-dev,
          libsasl2-dev,
+         qtbase5-dev,
          ${misc:Depends}
 Description: library for accessing LDAP - development files
  This is a library for accessing LDAP with a convenient Qt style C++ API.
