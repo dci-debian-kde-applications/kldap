@@ -11,7 +11,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5widgetsaddons-dev (>= 5.12.0~),
                libldap2-dev,
                libsasl2-dev,
-               pkg-kde-tools (>> 0.15.15)
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/pim/kldap
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kldap.git
