@@ -1,8 +1,8 @@
-kldap (15.08.1-1~) UNRELEASED; urgency=medium
+kldap (15.08.1-1) experimental; urgency=medium
 
   * New upstream release (15.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 20:07:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:28 +0200
 
 kldap (15.08.0-1) experimental; urgency=medium
 
