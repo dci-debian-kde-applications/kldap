@@ -1,8 +1,8 @@
-kldap (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+kldap (15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 23:47:40 +0100
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:05:15 +0100
 
 kldap (15.08.0-0ubuntu1) wily; urgency=medium
 
