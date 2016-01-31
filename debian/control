@@ -44,16 +44,3 @@ Description: library for accessing LDAP
  for querying and modifying directory services running over TCP/IP.
  .
  This package is part of the KDE Development Platform PIM libraries module.
-
-Package: libkf5ldap-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5ldap5 (= ${binary:Version}), ${misc:Depends}
-Description: library for accessing LDAP - debug symbols
- This is a library for accessing LDAP with a convenient Qt style C++ API.
- LDAP (Lightweight Directory Access Protocol) is an application protocol
- for querying and modifying directory services running over TCP/IP.
- .
- This package contains the debug symbols.
