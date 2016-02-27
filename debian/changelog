@@ -1,7 +1,11 @@
 kldap (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge, No remaining changes.
   * New upstream release.
+
+  [ Clive Johnston ]
+  * Fixing install file 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 12 Jan 2016 13:51:55 -0800
 
