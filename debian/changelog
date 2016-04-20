@@ -1,10 +1,12 @@
-kldap (15.12.0-2~1.gbpe8fe2a) UNRELEASED; urgency=medium
+kldap (16.04.0-1~1.gbpa94be1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e8fe2a79f9e7352271d503b1b8c7e24b46964ae4 **
+  ** SNAPSHOT build @a94be124bb35aa986ee55e30fd9bf6cb3a3d0147 **
 
   * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:34:06 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:33:12 +0200
 
 kldap (15.12.0-1) experimental; urgency=medium
 
