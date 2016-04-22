@@ -1,12 +1,21 @@
-kldap (16.04.0-1~1.gbpa94be1) UNRELEASED; urgency=medium
+kldap (16.04.0-1~2.gbpb0b1da) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @b0b1da10e6f376415d0427a3e698ae827b1958dd **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @a94be124bb35aa986ee55e30fd9bf6cb3a3d0147 **
 
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:33:12 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 22 Apr 2016 09:35:08 +0200
 
 kldap (15.12.0-1) experimental; urgency=medium
 
