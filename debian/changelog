@@ -1,10 +1,6 @@
-kldap (16.04.0-1~2.gbpb0b1da) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @b0b1da10e6f376415d0427a3e698ae827b1958dd **
+kldap (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @a94be124bb35aa986ee55e30fd9bf6cb3a3d0147 **
-
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
@@ -15,7 +11,7 @@ kldap (16.04.0-1~2.gbpb0b1da) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 22 Apr 2016 09:35:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 May 2016 15:13:18 +0200
 
 kldap (15.12.0-1) experimental; urgency=medium
 
