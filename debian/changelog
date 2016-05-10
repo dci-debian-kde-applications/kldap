@@ -1,3 +1,11 @@
+kldap (16.04.1-1~1.gbp92023f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @92023f61be9f29469defd5a3070bd240d5d481fd **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:33:26 +0200
+
 kldap (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
