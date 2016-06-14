@@ -1,3 +1,11 @@
+kldap (16.04.2-1~1.gbp4fd931) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4fd93181a13826521c66236bc3787940968de802 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:33:19 +0200
+
 kldap (16.04.1-1) unstable; urgency=medium
 
   * Release to unstable.
