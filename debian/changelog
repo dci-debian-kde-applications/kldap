@@ -1,10 +1,16 @@
-kldap (16.04.3-1~1.gbp69455d) UNRELEASED; urgency=medium
+kldap (16.08.0-1~1.gbp274d06) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @274d06bf82163bb767f4398ed35273ee94adb9a6 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @69455d2f426d30bae2426ba6cbec1dbc75b42d28 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 01:33:18 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 01:33:12 +0200
 
 kldap (16.04.2-1) unstable; urgency=medium
 
