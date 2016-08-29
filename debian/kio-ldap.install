@@ -1,0 +1,6 @@
+etc/xdg/kldap.categories
+usr/lib/*/qt5/plugins/kf5/kio/ldap.so
+usr/share/doc/HTML/en/kioslave5/ldap/index.cache.bz2
+usr/share/doc/HTML/en/kioslave5/ldap/index.docbook
+usr/share/kservices5/ldap.protocol
+usr/share/kservices5/ldaps.protocol
