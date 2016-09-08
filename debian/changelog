@@ -1,6 +1,6 @@
-kldap (16.08.0-1~2.gbp039fd9) UNRELEASED; urgency=medium
+kldap (16.08.1-1~1.gbpa6a519) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @039fd9acb226c306b55233e55207d0022723c314 **
+  ** SNAPSHOT build @a6a519c371eba7dd81fb6eb8f4372623df56e750 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @69455d2f426d30bae2426ba6cbec1dbc75b42d28 **
@@ -8,6 +8,7 @@ kldap (16.08.0-1~2.gbp039fd9) UNRELEASED; urgency=medium
   * UNRELEASED
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Neon CI ]
@@ -25,7 +26,7 @@ kldap (16.08.0-1~2.gbp039fd9) UNRELEASED; urgency=medium
   * new kio-ldap package
   * add replaces
 
- -- Neon CI <neon@kde.org>  Mon, 29 Aug 2016 14:21:30 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:33:32 +0200
 
 kldap (16.08.0-0neon) xenial; urgency=medium
 
