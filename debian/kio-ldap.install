@@ -5,3 +5,4 @@ usr/share/doc/HTML/en/kioslave5/ldap/index.cache.bz2
 usr/share/doc/HTML/en/kioslave5/ldap/index.docbook
 usr/share/kservices5/ldap.protocol
 usr/share/kservices5/ldaps.protocol
+usr/share/locale/*/LC_MESSAGES/kio_ldap.mo
