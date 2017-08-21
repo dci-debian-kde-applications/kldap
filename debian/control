@@ -21,21 +21,7 @@ Homepage: https://projects.kde.org/projects/kde/pim/kldap
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kldap.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kldap.git
 
-Package: kio-ldap
-Architecture: any
-Multi-Arch: no
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
-Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
-Description: library for accessing LDAP - development files
- This is a library for accessing LDAP with a convenient Qt style C++ API.
- LDAP (Lightweight Directory Access Protocol) is an application protocol
- for querying and modifying directory services running over TCP/IP.
- .
- This package contains the KIO slave.
-
 Package: libkf5ldap-dev
-Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5ldap5 (= ${binary:Version}),
@@ -43,19 +29,26 @@ Depends: libkf5ldap5 (= ${binary:Version}),
          libsasl2-dev,
          qtbase5-dev,
          ${misc:Depends},
+Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
+Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
 Description: library for accessing LDAP - development files
  This is a library for accessing LDAP with a convenient Qt style C++ API.
  LDAP (Lightweight Directory Access Protocol) is an application protocol
  for querying and modifying directory services running over TCP/IP.
  .
  This package contains the development files.
+Section: libdevel
 
 Package: libkf5ldap5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Description: library for accessing LDAP
  This is a library for accessing LDAP with a convenient Qt style C++ API.
  LDAP (Lightweight Directory Access Protocol) is an application protocol
