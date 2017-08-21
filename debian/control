@@ -39,6 +39,17 @@ Description: library for accessing LDAP - development files
  This package contains the development files.
 Section: libdevel
 
+Package: libkf5ldap-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: library for accessing LDAP (documentation)
+ This is a library for accessing LDAP with a convenient Qt style C++ API.
+ LDAP (Lightweight Directory Access Protocol) is an application protocol
+ for querying and modifying directory services running over TCP/IP.
+ .
+ This package contains the documentation files.
+
 Package: libkf5ldap5
 Architecture: any
 Multi-Arch: same
