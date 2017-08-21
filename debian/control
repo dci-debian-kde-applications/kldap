@@ -26,8 +26,8 @@ Package: kio-ldap
 Architecture: any
 Multi-Arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins
-Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins
+Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
+Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
 Description: library for accessing LDAP - development files
  This is a library for accessing LDAP with a convenient Qt style C++ API.
  LDAP (Lightweight Directory Access Protocol) is an application protocol
@@ -55,6 +55,8 @@ Package: libkf5ldap5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: library for accessing LDAP
  This is a library for accessing LDAP with a convenient Qt style C++ API.
  LDAP (Lightweight Directory Access Protocol) is an application protocol
