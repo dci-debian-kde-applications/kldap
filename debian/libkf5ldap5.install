@@ -2,8 +2,4 @@ etc/xdg/kldap.categories
 etc/xdg/kldap.renamecategories
 usr/lib/*/libKF5Ldap.so.5
 usr/lib/*/libKF5Ldap.so.5.*
-usr/lib/*/qt5/plugins/kf5/kio/ldap.so
-usr/share/kservices5/ldap.protocol
-usr/share/kservices5/ldaps.protocol
-usr/share/locale/*/LC_MESSAGES/kio_ldap.mo
 usr/share/locale/*/LC_MESSAGES/libkldap5.mo
