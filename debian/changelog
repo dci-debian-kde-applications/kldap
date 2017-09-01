@@ -1,11 +1,13 @@
-kldap (17.08.0-1~1) UNRELEASED; urgency=medium
+kldap (17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
   * Add -doc package
   * Bump group breaks (17.08)
   * Add kio-ldap package
+  * Update copyright file
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 29 Aug 2017 18:53:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:08:25 +0200
 
 kldap (17.08.0-0neon) xenial; urgency=medium
 
