@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 17.08.3 amd64
 libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 15.07.90
  _ZN5KLDAP10LdapObject5clearEv@Base 15.07.90
@@ -44,6 +44,7 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZN5KLDAP10LdapServer11setSecurityENS0_8SecurityE@Base 15.07.90
  _ZN5KLDAP10LdapServer12setSizeLimitEi@Base 15.07.90
  _ZN5KLDAP10LdapServer12setTimeLimitEi@Base 15.07.90
+ _ZN5KLDAP10LdapServer19setCompletionWeightEi@Base 17.08.3
  _ZN5KLDAP10LdapServer5clearEv@Base 15.07.90
  _ZN5KLDAP10LdapServer6setUrlERKNS_7LdapUrlE@Base 15.07.90
  _ZN5KLDAP10LdapServer7setAuthENS0_4AuthE@Base 15.07.90
@@ -274,6 +275,7 @@ libKF5Ldap.so.5 libkf5ldap5 #MINVER#
  _ZNK5KLDAP10LdapSearch10metaObjectEv@Base 15.07.90
  _ZNK5KLDAP10LdapSearch11errorStringEv@Base 15.07.90
  _ZNK5KLDAP10LdapSearch5errorEv@Base 15.07.90
+ _ZNK5KLDAP10LdapServer16completionWeightEv@Base 17.08.3
  _ZNK5KLDAP10LdapServer3urlEv@Base 15.07.90
  _ZNK5KLDAP10LdapServer4authEv@Base 15.07.90
  _ZNK5KLDAP10LdapServer4hostEv@Base 15.07.90

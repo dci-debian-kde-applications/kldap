@@ -6,6 +6,7 @@ kldap (17.08.3-1) UNRELEASED; urgency=medium
   * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
   * Remove not needed Build-Deps.
   * Bump debhelper build-dep and compat to 10.
+  * Update symbols from buildds for 17.08.3
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Dec 2017 20:41:34 +0100
 
