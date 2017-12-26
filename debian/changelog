@@ -8,6 +8,7 @@ kldap (17.08.3-2) UNRELEASED; urgency=medium
   * Remove the kde-l10n breaks/replaces in libkf5ldap-dev, as there are no
     translations there.
   * Small syntax fixes to copyright.
+  * Simplify watch file, and switch it to https.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 01:06:04 +0100
 
