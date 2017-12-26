@@ -41,9 +41,7 @@ Depends: libkf5ldap5 (= ${binary:Version}),
          libsasl2-dev,
          qtbase5-dev,
          ${misc:Depends},
-Replaces: ${kde-l10n:all}
 Breaks: libkf5libkdepim-dev (<< 4:17.08),
-        ${kde-l10n:all},
 Description: library for accessing LDAP - development files
  This is a library for accessing LDAP with a convenient Qt style C++ API.
  LDAP (Lightweight Directory Access Protocol) is an application protocol
