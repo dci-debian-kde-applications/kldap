@@ -1,3 +1,8 @@
+kldap (17.08.3-3) UNRELEASED; urgency=medium
+
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jan 2018 08:31:07 +0100
+
 kldap (17.08.3-2) unstable; urgency=medium
 
   * Team upload.
