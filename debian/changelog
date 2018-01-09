@@ -1,5 +1,8 @@
 kldap (17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Restore the kf5-kdepimlibs-kio-plugins breaks/replaces in libkf5ldap-doc,
+    as they are actually needed. (Closes: #886701)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jan 2018 08:31:07 +0100
 

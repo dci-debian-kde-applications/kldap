@@ -54,8 +54,10 @@ Package: libkf5ldap-doc
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kf5-kdepimlibs-kio-plugins,
+        ${kde-l10n:all},
+Replaces: kf5-kdepimlibs-kio-plugins,
+          ${kde-l10n:all},
 Description: library for accessing LDAP (documentation)
  This is a library for accessing LDAP with a convenient Qt style C++ API.
  LDAP (Lightweight Directory Access Protocol) is an application protocol
