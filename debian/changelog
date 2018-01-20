@@ -1,10 +1,10 @@
-kldap (17.08.3-3) UNRELEASED; urgency=medium
+kldap (17.08.3-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Restore the kf5-kdepimlibs-kio-plugins breaks/replaces in libkf5ldap-doc,
     as they are actually needed. (Closes: #886701)
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jan 2018 08:31:07 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 20 Jan 2018 10:31:51 +0100
 
 kldap (17.08.3-2) unstable; urgency=medium
 
