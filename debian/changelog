@@ -5,6 +5,7 @@ kldap (17.12.1-0) UNRELEASED; urgency=medium
   * Update copyright file.
   * Mark kio-ldap as Multi-Arch:same as hinter suggests.
   * Update build-deps and deps with the info from cmake
+  * enable build tests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Feb 2018 13:45:11 +0100
 
