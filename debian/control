@@ -22,7 +22,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kldap.git
 
 Package: kio-ldap
 Architecture: any
-Multi-Arch: no
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
 Breaks: kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
