@@ -4,16 +4,16 @@ Source: http://download.kde.org/pub/kde/unstable/applications/
 
 Files: *
 Copyright: 2010, Andre Heinecke <aheinecke@intevation.de>
-           2008, Jarosław Staniek <staniek@kde.org>
-           2006, Sean Harmer <sh@theharmers.co.uk>
-           2004-2006, Szombathelyi György <gyurco@freemail.hu>
-           2004, Tobias Koenig <tokoe@kde.org>
-           2006, Volker Krause <vkrause@kde.org>
            2004, Free Software Foundation, Inc
+           2008, Jarosław Staniek <staniek@kde.org>
            2005, KDE Russian translation team
            2002, Meni Livne <livne@kde.org>
            2010, Rosetta Contributors and Canonical Ltd 2010
+           2006, Sean Harmer <sh@theharmers.co.uk>
+           2004-2006, Szombathelyi György <gyurco@freemail.hu>
            2004-2016, This_file_is_part_of_KDE
+           2004, Tobias Koenig <tokoe@kde.org>
+           2006, Volker Krause <vkrause@kde.org>
 License: LGPL-2+
 
 Files: po/ca/kio_ldap.po
@@ -21,7 +21,7 @@ Files: po/ca/kio_ldap.po
        po/ca@valencia/*
        po/uk/kio_ldap.po
        po/uk/libkldap5.po
-Copyright: 2004-2016, This_file_is_part_of_KDE
+Copyright: 2004-2017, This_file_is_part_of_KDE
 License: LGPL-2.1+3+KDEeV
 
 Files: cmake/*
